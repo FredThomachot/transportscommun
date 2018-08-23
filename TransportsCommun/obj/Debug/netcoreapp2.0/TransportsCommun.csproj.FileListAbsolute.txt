@@ -1,0 +1,11 @@
+c:\users\frederic.thomachot\source\repos\TransportsCommun\TransportsCommun\bin\Debug\netcoreapp2.0\TransportsCommun.deps.json
+c:\users\frederic.thomachot\source\repos\TransportsCommun\TransportsCommun\bin\Debug\netcoreapp2.0\TransportsCommun.runtimeconfig.json
+c:\users\frederic.thomachot\source\repos\TransportsCommun\TransportsCommun\bin\Debug\netcoreapp2.0\TransportsCommun.runtimeconfig.dev.json
+c:\users\frederic.thomachot\source\repos\TransportsCommun\TransportsCommun\bin\Debug\netcoreapp2.0\TransportsCommun.dll
+c:\users\frederic.thomachot\source\repos\TransportsCommun\TransportsCommun\bin\Debug\netcoreapp2.0\TransportsCommun.pdb
+c:\users\frederic.thomachot\source\repos\TransportsCommun\TransportsCommun\obj\Debug\netcoreapp2.0\TransportsCommun.csprojAssemblyReference.cache
+c:\users\frederic.thomachot\source\repos\TransportsCommun\TransportsCommun\obj\Debug\netcoreapp2.0\TransportsCommun.csproj.CoreCompileInputs.cache
+c:\users\frederic.thomachot\source\repos\TransportsCommun\TransportsCommun\obj\Debug\netcoreapp2.0\TransportsCommun.AssemblyInfoInputs.cache
+c:\users\frederic.thomachot\source\repos\TransportsCommun\TransportsCommun\obj\Debug\netcoreapp2.0\TransportsCommun.AssemblyInfo.cs
+c:\users\frederic.thomachot\source\repos\TransportsCommun\TransportsCommun\obj\Debug\netcoreapp2.0\TransportsCommun.dll
+c:\users\frederic.thomachot\source\repos\TransportsCommun\TransportsCommun\obj\Debug\netcoreapp2.0\TransportsCommun.pdb
