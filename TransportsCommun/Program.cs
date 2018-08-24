@@ -1,5 +1,7 @@
-﻿using Newtonsoft.Json.Linq;
+﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Net;
 
@@ -10,25 +12,17 @@ namespace TransportsCommun
         static void Main(string[] args)
         {
             Console.WriteLine("Public transport");
+            ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12 | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls;
 
-            string urlApi = "https://data.metromobilite.fr/api/linesNear/json?x=5.72792&y=45.18549&dist=800&details=true";
+            SaladeDeRequete superSalade = new SaladeDeRequete();
+            string responseFromServer = superSalade.gimmeTomato();
 
-            WebRequest request = WebRequest.Create(urlApi);
-            WebResponse response = request.GetResponse();
+            List<Station> maSuperListeDeStations = JsonConvert.DeserializeObject<List<Station>>(responseFromServer);
 
-            Stream dataStream = response.GetResponseStream();
-            StreamReader reader = new StreamReader(dataStream);
-
-            string responseFromServer = reader.ReadToEnd();
-
-            Console.WriteLine(responseFromServer);
-
-            JArray json = JArray.Parse(responseFromServer);
-
-
-
-
-
+            foreach (Station station in maSuperListeDeStations)
+            {
+                Console.WriteLine(station.name);
+            }
 
         }
     }
