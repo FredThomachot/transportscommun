@@ -15,7 +15,7 @@ namespace TransportsCommun
         {
         }
 
-        public string gimmeTomato()
+        public string apiReadableResponse()
         {
             //On fait la requête 
             WebRequest request = WebRequest.Create(urlApi);

@@ -14,8 +14,8 @@ namespace TransportsCommun
             Console.WriteLine("Public transport");
             ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12 | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls;
 
-            SaladeDeRequete superSalade = new SaladeDeRequete();
-            string responseFromServer = superSalade.gimmeTomato();
+            SaladeDeRequete requeteApiMetro = new SaladeDeRequete();
+            string responseFromServer = requeteApiMetro.apiReadableResponse();
 
             List<Station> maSuperListeDeStations = JsonConvert.DeserializeObject<List<Station>>(responseFromServer);
 
